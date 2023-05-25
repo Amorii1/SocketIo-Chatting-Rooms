@@ -1,7 +1,7 @@
-import express from 'express'
-import { createServer } from 'http'
-import { join } from 'path'
-import { Server } from 'socket.io'
+const express = require('express')
+const { createServer } = require('http')
+const { join } = require('path')
+const { Server } = require('socket.io')
 const { formatMessage } = require('./utils/messages')
 const {
     userJoin,
