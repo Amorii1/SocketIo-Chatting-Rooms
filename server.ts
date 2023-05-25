@@ -2,8 +2,7 @@ import express from 'express'
 import { createServer } from 'http'
 import { join } from 'path'
 import { Server } from 'socket.io'
-import { formatMessage } from './utils/messages'
-
+const { formatMessage } = require('./utils/messages')
 const {
     userJoin,
     getCurrentUser,
