@@ -5,9 +5,10 @@ Chatting rooms application using socket.io and node.js, multi rooms open for eve
 - Node.js
 - Express.js
 - Socket.io
-- Fully Responsive
 - Javascript
-- HTML&CSS 
+- HTML&&CSS
+- Fully Documented Code
+- Fully Responsive
 
 
 
